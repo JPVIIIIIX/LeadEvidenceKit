@@ -1,0 +1,13 @@
+{
+  "subject": "Example Cabinet Workshop (fictional)",
+  "identity": "confirmed",
+  "sources": [
+    {"id": "site", "url": "https://workshop.example/about", "status": "read", "attributed": true, "quote": "We manufacture custom cabinets. This entire example is synthetic."},
+    {"id": "trade", "url": "https://trade.example/search", "status": "blocked", "attributed": false}
+  ],
+  "claims": [
+    {"kind": "fact", "text": "The fictional workshop describes cabinet manufacturing.", "source_ids": ["site"]},
+    {"kind": "unknown", "text": "Trade records could not be read; purchasing scale remains unknown.", "source_ids": ["trade"]},
+    {"kind": "unknown", "text": "Ask about current projects and purchasing responsibility.", "source_ids": []}
+  ]
+}

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leadevidencekit"
+version = "0.1.0"
+description = "Evidence-aware customer research reports without CRM or account access"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+leadevidencekit = "leadevidencekit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
